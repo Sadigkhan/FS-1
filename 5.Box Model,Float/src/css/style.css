@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.header-all{
+    padding: 20px;
+    background-color: aqua;
+    overflow-y: hidden;
+}
+
+
+.logo{
+    float: left;
+}
+
+.navbar{
+    float: right;
+}
+
+.navbar a{
+    margin-right: 15px;
+} 
+
+
+
+#portfolio .imgs{
+    float: left;
+    width: 30%;
+    margin-left: 36px;
+    margin-top: 20px;
+}
+
+#portfolio .imgs img {
+    width: 100%;
+}
+
+
+/*
+margin-top:10px;
+margin-bottom:10px;
+margin-left:20px;
+margin-right:20px;
+
+margin:10px;
+margin:10px 20px;
+margin:10px 20px 10px 20px;
+
+*/
