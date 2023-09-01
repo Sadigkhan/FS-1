@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+relative
+absolute
+fixed
+static
+sticky
+*/
+
+.parent{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    background-color: red;
+
+}
+
+.child{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    transition: .7s;
+
+}
+
+
+
+.parent:hover .child{
+    /* top: 50%;
+    left: 50%;  */
+    transform: translate(35%,  35%); 
+  
+}
+
+
+/* .parent:hover .child{
+    background-color: blue;
+} */
+
+/* .child:hover{
+    background-color: green;
+} */
+
+/* .parent:hover .child .third{
+    background-color: blue;
+} */
+
+
+/* 
+i{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+} */
