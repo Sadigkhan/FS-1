@@ -1,0 +1,23 @@
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home{
+    color: red;
+}
+
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .box{
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+}
+

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* 
+.first{
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: width 2s linear, background-color 4s ease, height 3s ease-in-out;
+} */
+
+/* .second{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: 1s; 
+     transition-delay: 2s; 
+    transition-duration: 5s;
+} */
+
+/* .first:hover .second{
+    background-color: green;
+} */
+/* 
+.first:hover{
+    width: 900px;
+    background-color: black;
+    height: 800px;
+} */
+/* 
+.box{
+    width: 30%;
+    overflow: hidden;
+
+}
+.box img{
+    width: 100%;
+    transition: 1s;
+
+}
+
+.all{
+    transition: 1s;
+}
+
+
+.box:hover .all{
+     transform: scale(0.5); 
+    transform: rotateY(180deg);
+} */
+
+/* 
+#Main{
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+}
+
+#Main img{
+    position: absolute;
+    animation: Ayan 20s linear;
+
+}
+
+@keyframes Ayan{
+  0%{
+      left: 0px;
+  }
+  50%{
+        left: 100%;
+  }
+
+  100%{
+      left: 0px;
+  }
+} */
