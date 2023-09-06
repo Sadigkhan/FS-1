@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .header-all .container .row .col-sm-2 {
+  background-color: red;
+}
+
+.header-all {
+  position: relative;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(1) {
+  position: relative;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(1) .dropdown {
+  overflow: hidden;
+  position: absolute;
+  width: 170px;
+  top: 100%;
+  left: 0;
+  height: 0px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(1):hover .dropdown {
+  background-color: red;
+  width: 170px;
+  height: 200px;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(2) .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(2):hover .dropdown {
+  display: block;
+  background-color: red;
+  width: 100%;
+  height: 200px;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(3) .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.header-all .container-fluid .row .nav-custom .navul .home-item-li:nth-child(3):hover .dropdown {
+  display: block;
+  background-color: red;
+  width: 100%;
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
