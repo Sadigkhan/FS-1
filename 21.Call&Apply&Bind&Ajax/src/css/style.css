@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a{
+  padding: 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
